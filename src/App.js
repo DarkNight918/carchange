@@ -1,7 +1,14 @@
 import React from 'react';
 import './App.css';
+
+import OfferCountHeader from './component/OfferHeader/OfferCountHeader';
+import FilterResult from './component/FilterResult/filterresult';
+import Status from './component/Status/status';
+import CarListItem from './component/CarListItem/carlistitem';
+
 import Header from './component/Header/header'
 import {useState} from 'react';
+
 function App() {
   const [showCount, setShowCount] = useState([
     7,
@@ -51,6 +58,11 @@ function App() {
       <div className="app-body">
          <Header/>
          {/* content */}
+
+         <div className='flex flex-row justify-around items-start w-full'> 
+              <div className='app-left-filterbar'>
+                search List boxes
+
          <div className='flex flex-row justify-center items-start'> 
               <div className='searchOptionsBox pl-28 pr-0 mt-20'>
                 {/* F8FBFD */}
@@ -128,18 +140,56 @@ function App() {
                   </div>
                 </div>
                 </div>
+
               </div>
-              <div>
+
+              <div className='app-content'>
                 <div>
-                  filter
+                  <OfferCountHeader />
                 </div>
                 <div>
-                  status
+                  <FilterResult />
                 </div>
-                <div>
-                  main car list
+                <div className='mt-5'>
+                  <Status />
+                </div>
+                
+                <div className='mt-5'>
+                  <CarListItem 
+                    name="BMW M 850 2018" 
+                    time="31" makes="BMW" 
+                    mileage="35,000km" 
+                    color="Grey" 
+                    fueltype="Gasoline"
+                    highestbid="AED 230,224"
+                    sellersbid="AED 286,500"
+                    status="lastchance" />
+                    
+                  <CarListItem
+                    name="BMW M 850 2018" 
+                    time="31" 
+                    makes="BMW" 
+                    mileage="35,000km" 
+                    color="Grey" 
+                    fueltype="Gasoline"
+                    highestbid="AED 230,224"
+                    sellersbid="AED 286,500" 
+                    status="live" />
+                  
+                  <CarListItem
+                    name="BMW M 850 2018" 
+                    time="31" 
+                    makes="BMW" 
+                    mileage="35,000km" 
+                    color="Grey" 
+                    fueltype="Gasoline"
+                    highestbid="AED 230,224"
+                    sellersbid="AED 286,500" 
+                    status="deal" />
+
                 </div>
               </div>
+              
          </div>
       </div>
          

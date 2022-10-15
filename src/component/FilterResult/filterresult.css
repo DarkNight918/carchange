@@ -1,0 +1,53 @@
+.filter-result {
+    height: 71px;
+    border: 1px solid #DFDFDF;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.filteringby {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #8184A3;
+}
+
+.filter-item {
+    margin-left: 24px;
+    background: #1D7DBD;
+    border-radius: 4px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.filter-item:hover {
+    background-color: #5D7DBD;
+}
+
+.filter-item .filter-item-text {
+    margin-right: 10px;
+}
+
+.sortby-section{
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #8184A3;
+
+    padding: 2px;
+}

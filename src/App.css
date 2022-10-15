@@ -2,6 +2,18 @@
 {
   width: 1440px !important;
 }
+
+.app-left-filterbar {
+  width: 393px;
+}
+
+.app-left-filterbar {
+  background-color: #ffffff;
+}
+
+.app-content {
+  width: 797px;
+}
 .searchOptionsBox
 {
   /* width: 393px; */
