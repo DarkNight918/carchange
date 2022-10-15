@@ -10,11 +10,11 @@ import Car3 from '../../assets/img/car3.png';
 function carlistitem(props) {
   return (
     <div>
-        <div className={`car-list-item mt-5 flex car-list-item-${ props.status }`}>
+        <div className={`car-list-item mt-5 flex car-list-item-${ props.status } flex xl:flex-row flex-col`}>
             {/* Image of Car */}
             <img className='car-img' src={Car1} />
 
-            <div className='flex row flex-col ml-8'>
+            <div className='flex row flex-col xl:ml-8 ml-0'>
                 {/* Information of Car */}
                 <h1 className='auction-car-name'>{props.name}</h1>
                 <div className='mt-1'>
@@ -24,7 +24,7 @@ function carlistitem(props) {
 
                 {/* Input Section */}
                 <div className='flex'>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col xl:items-start items-center'>
                         <InputLabelItem label="Makes" text={props.makes} />
                         <InputLabelItem label="Color" text={props.color} />
                     </div>

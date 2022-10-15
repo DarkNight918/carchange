@@ -15,6 +15,35 @@
   width: 797px;
   margin-right: 110px;
 }
+
+@media only screen and (max-width: 1440px) {
+  .app-content {
+    width: 394px;
+  }
+  .main-container {
+    width: 828px !important;
+  }
+  .app-body {
+    width: 768px !important;
+  }
+
+  .app-content {
+    margin-right: 39px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .app-content {
+    margin-right: 0px !important;
+  }
+  .app-body {
+    width: 375px !important;
+  }
+}
+
+.main-container {
+  width: 1440px;
+}
+
 .searchOptionsBox
 {
   /* width: 393px; */

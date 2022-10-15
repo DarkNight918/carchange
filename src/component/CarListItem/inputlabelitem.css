@@ -22,6 +22,12 @@
     padding-right: 20px;
 }
 
+@media only screen and (max-width: 1440px) {
+    .inputlabel-item-text {
+      width: 154px;
+    }
+  }
+
 .inputlabel-item-text > span {
     font-family: 'Poppins';
     font-style: normal;

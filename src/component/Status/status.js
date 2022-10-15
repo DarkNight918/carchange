@@ -5,7 +5,7 @@ import StatusItem from './statusitem'
 
 function status() {
   return (
-    <div className='status-items grid grid-cols-4'>
+    <div className='status-items grid xl:grid-cols-4 grid-cols-2'>
         <div className='live-status flex justify-center'><StatusItem text="Live"/></div>
         <div className='upcoming-status flex justify-center'><StatusItem text="Upcoming"/></div>
         <div className='inventory-status flex justify-center'><StatusItem text="Inventory"/></div>

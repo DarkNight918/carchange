@@ -57,13 +57,13 @@ function App() {
       <div className="app-body">
          <Header/>
          {/* content */}
-         <div className='flex flex-row justify-around items-start w-full'> 
-            <div className='flex flex-row justify-center items-start'> 
+         <div className='flex md:flex-row flex-col xl:justify-around justify-between lg:items-start'> 
+            <div className='flex flex-row justify-center'> 
               
-              <div className='searchOptionsBox pl-28 pr-0 mt-20'>
+              <div className='searchOptionsBox xl:pl-28 lg:pl-11 pl-5 mt-20'>
                 {/* F8FBFD */}
                 <div className='cus_border bg-white'>
-                  <div className='w-96 cus_border bg-white cus_border flex flex-col justify-center h-24 '>
+                  <div className='xl:w-96 w-72 cus_border bg-white cus_border flex flex-col justify-center h-24 '>
                     <div className='flex flex-row justify-between items-center text-lg'>
                       <div className='pl-6 pt-6 pb-5 text-[#8184A3]'>Showing <span className='text-[#1D7DBD]'>7</span> results<br/> of 237 items</div>
                       <div className='underline pr-6 text-[#1D7DBD] cursor-pointer text-semibold'>Reset All</div>
