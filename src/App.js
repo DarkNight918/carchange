@@ -27,16 +27,37 @@ function App() {
                 
                 <div className='mt-5'>
                   <CarListItem 
-                  name="BMW M 850 2018" 
-                  time="31" makes="BMW" 
-                  mileage="35,000km" 
-                  color="Grey" 
-                  fueltype="Gasoline"
-                  highestbid="AED 230,224"
-                  sellersbid="AED 286,500"
-                  status="lastchance" />
-                  <CarListItem status="live" />
-                  <CarListItem status="deal" />
+                    name="BMW M 850 2018" 
+                    time="31" makes="BMW" 
+                    mileage="35,000km" 
+                    color="Grey" 
+                    fueltype="Gasoline"
+                    highestbid="AED 230,224"
+                    sellersbid="AED 286,500"
+                    status="lastchance" />
+                    
+                  <CarListItem
+                    name="BMW M 850 2018" 
+                    time="31" 
+                    makes="BMW" 
+                    mileage="35,000km" 
+                    color="Grey" 
+                    fueltype="Gasoline"
+                    highestbid="AED 230,224"
+                    sellersbid="AED 286,500" 
+                    status="live" />
+                  
+                  <CarListItem
+                    name="BMW M 850 2018" 
+                    time="31" 
+                    makes="BMW" 
+                    mileage="35,000km" 
+                    color="Grey" 
+                    fueltype="Gasoline"
+                    highestbid="AED 230,224"
+                    sellersbid="AED 286,500" 
+                    status="deal" />
+
                 </div>
               </div>
               
