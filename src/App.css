@@ -2,3 +2,24 @@
 {
   width: 1440px !important;
 }
+.searchOptionsBox
+{
+  /* width: 393px; */
+}
+.cus_border
+{
+  border: 1px solid #DFDFDF;
+  border-radius: 8px 8px 0px 0px;
+}
+.searchOption
+{
+}
+.sh_checkbox
+{
+  width: 25px;
+  height: 25px;
+}
+.option-container
+{
+  border: 1px solid #DFDFDF;
+}
