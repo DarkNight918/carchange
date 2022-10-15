@@ -1,0 +1,33 @@
+.status-items > div {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.status-items > div:hover {
+    background-color:#F2FFFF;
+}
+
+.live-status {
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.upcoming-status {
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 0px;
+}
+
+.inventory-status {
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 0px;
+}
+
+.deal-status {
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    border-radius: 0px 8px 8px 0px;
+}

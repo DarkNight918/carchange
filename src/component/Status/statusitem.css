@@ -1,0 +1,13 @@
+.status-item-icon {
+    margin-right: 10px;
+}
+
+.statusitem-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #8184A3;
+}

@@ -1,0 +1,156 @@
+.car-list-item {
+    position: relative;
+    background: #FFFFFF;
+    border: 2px solid #E32519;
+    border-radius: 8px;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 35px;
+
+    
+}
+
+.car-list-item-lastchance {
+    border: 2px solid #E32519;
+}
+
+.car-list-item-live {
+    border: 2px solid #127BBF;
+}
+
+.car-list-item-deal {
+    border: 2px solid #F6DE04;
+}
+
+.car-img {
+    width: 253px;
+    height: 238.78px;
+    border-radius: 8px;
+}
+
+.auction-car-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    color: #000000;
+}
+
+.auction-ends-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8184A3;
+}
+
+.auction-ends-time {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E32519;
+}
+
+.right-labels  {
+    margin-left: 20px;
+}
+
+.aed-label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #8184A3;
+}
+
+.aed-value {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #141414;
+
+    margin-left: 5px;
+}
+
+.aed-section {
+    margin-left: 10px
+}
+
+.status-label-lastchance {
+    position: absolute;
+    width: 149px;
+    height: 48px;
+    bottom: 0;
+    right: 0;
+
+    background: #E32519;
+    border-radius: 8px 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 5px;
+}
+
+.status-label-live {
+    position: absolute;
+    width: 79px;
+    height: 48px;
+    bottom: 0;
+    right: 0;
+
+    background: #127BBF;
+    border-radius: 8px 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 5px;
+}
+
+.status-label-deal {
+    position: absolute;
+    width: 85px;
+    height: 48px;
+    bottom: 0;
+    right: 0;
+
+    background: #F6DE04;
+    border-radius: 8px 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 5px;
+}
